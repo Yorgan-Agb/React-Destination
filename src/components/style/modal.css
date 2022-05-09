@@ -1,0 +1,110 @@
+.buttonModal {
+  border: 1px solid #3e85c7;
+  border-radius: 10% 10% 10% 10%;
+  color: white;
+  background-color: #3e85c7;
+  width: 95px;
+  height: 35px;
+}
+
+.buttonContainer {
+  position: absolute;
+  left: 84%;
+  top: 10%;
+}
+
+.containerModal {
+  background: white;
+  width: 600px;
+  height: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  display: none;
+  transform: translate(-50%, -50%);
+  backdrop-filter: drop-shadow(30px 10px 4px);
+  border-radius: 5px;
+}
+
+.containerModal.active {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.holderModal {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottomModalContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.bottomText {
+  display: flex;
+  width: 13vh;
+  height: 5vh;
+  border: none;
+  background-color: #f4f3f4;
+  border-radius: 3px;
+  padding-left: 15px;
+}
+
+.titleModal {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.textInput {
+  display: block;
+  border: none;
+  background-color: #f4f3f4;
+  border-radius: 3px;
+  width: 95%;
+  height: 4vh;
+  padding-left: 20px;
+}
+
+.testInput {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.bottomModalButton {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.cancelButtonContainer,
+.confirmButtonContainer {
+  margin-right: 20px;
+  width: 18%;
+}
+
+.confirmButton {
+  color: #3e85c7;
+  font-weight: bold;
+}
+
+.cancelButton {
+  color: #bfbfbf;
+  font-weight: bold;
+}
+
+.buttonActiveModal {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 13%;
+}
