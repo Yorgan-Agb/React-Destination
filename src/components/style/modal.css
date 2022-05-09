@@ -95,11 +95,13 @@
 .confirmButton {
   color: #3e85c7;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .cancelButton {
   color: #bfbfbf;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .buttonActiveModal {
